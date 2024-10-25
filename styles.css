@@ -1,0 +1,61 @@
+body {
+color: white;
+background: black;
+margin: 0px;
+font-family: "Agdasima", sans-serif;
+margin-bottom: 100px;
+}
+
+
+header {
+border-bottom: solid 4px #4169e1;
+text-align: center;
+font-size: 32px;
+color: #9400d3
+}
+
+.text0 {
+background: #ff0000;
+padding-top: 27px;
+padding-bottom: 79px;
+display: flex;
+justify-content: center;
+}
+
+.texto {
+margin: 5%;
+}
+
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 15px;
+}
+
+.filmes-series {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
+}
+
+
+.filmes-series img {
+height: 200px;
+    opacity: 0.5;
+}
+
+.filmes-series img:hover {
+    opacity: 1.0;
+    border: 2px solid #8a2be2;
+}
+
+.categoria h2 {
+
+    color: #9400d3
+}
